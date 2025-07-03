@@ -1,12 +1,12 @@
 
 body{
-    background-color: rgb(177, 249, 249);
+    background-color: #b1f9f9;
 }
 .head_line {
     background-color: blue;
     color: white;
     padding: 1px;
-    margin-bottom: 10px;
+    
     border-radius: 10px;
 }
 .head_line h1{
@@ -17,40 +17,226 @@ body{
 .head_line p {
     padding-left: 30px;
 }
+
+.nav {
+  background-color: whitesmoke;
+  padding: 2px 20px 20px 30px ;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px gray; 
+}
+.nav-bar {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.nav-bar a {
+  text-decoration: none;
+  background-color: #a5b3f3;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+.nav-bar a:hover {
+  background-color: #4163fd;
+}
+
 .images{
     background-color: whitesmoke;
     border-radius: 10px;
     padding: 1px;
     box-shadow: 0px 5px 10px gray; 
 }
-
 .images h2 {
     margin-bottom: 20px;
-    padding-left: 30px;
+    padding: 2px 0px 0px 30px;
 }
-
 .images p {
-  padding-left: 30px;
+  padding: 2px 0px 0px 30px;
   margin-bottom: 30px;
 }
-
 .image-row {
   display: flex;
   justify-content: center;
   gap: 200px;
 }
-
 .image-box {
   padding: 10px;
   width: 150px;
   text-align: center;
 }
-
 .image-box img {
   width: 100px;
   height: 100px;
-  
 }
 
+ .con{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow: 0px 5px 10px gray;     
+}
+.container {  
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 2px 0px 0px 30px;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 15px;  
+}.list-sec {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.list-column {
+    flex:1;
+    padding-right: 30px;
+  }
+.list-column:last-child {
+    padding-left: px; 
+}
+ul, ol {
+    padding-left: 20px;
+    margin: 0;
+}
+li {
+    margin-bottom: 8px;
+}
+em {
+    font-style: italic;
+}
+a {
+    color: #0298b9; 
+    text-decoration: none;
+}
+dt {
+    font-weight: bold;
+    margin-top: 15px; 
+}
+.tables{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  box-shadow: 0px 5px 10px gray;     
+  margin-bottom: 10px;
+}
+.table-1 h2{   
+    padding: 30px 0px 0px 30px; 
+}
+.table-1 p{
+  padding-left: 30px;
+}
+table {   
+    width: 94%;
+    border-collapse: collapse;  
+    border-radius: 5px; 
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+th {
+    background-color: rgb(180, 210, 221); 
+}
+tbody tr:last-child td {
+    border-bottom: none; 
+}
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+tbody tr:nth-child(even) {
+    background-color: #e4e3e3; 
+}
+
+.hyp-link {
+    background-color: whitesmoke; 
+    border-radius: 10px; 
+     box-shadow: 0px 5px 10px gray; 
+}
+.hyp_head h2 {  
+   padding: 30px 0px 0px 30px;   
+}
+.hyp_head p {
+ padding-left: 30px;   
+}
+.hyp-body {
+    display: grid;
+    gap: 30px; 
+}
+.hyp-body {
+     grid-template-columns: 1fr 1fr; 
+}
+.basic,
+.button,
+.link-bhv {
+    background-color: white; 
+    border: 1px solid grey; 
+    border-radius: 10px;
+    padding: 0px 0px 30px 10px;
+}
+.basic{
+    margin-left: 30px;
+}
+.button{
+    margin-right: 30px;
+}
+.link-bhv{
+    margin-left: 30px;
+     margin-bottom: 30px;
+}
+.basic h2,
+.button h2,
+.link-bhv h2 { 
+    margin-top: 0;
+}
+.basic .standard-link {
+    text-decoration: none; 
+    color: #007bff;   
+}
+.basic .styled-link{
+    color: green;
+    text-decoration: none;
+}
+.basic .link-with-icon{
+    color: purple;
+    text-decoration: none;
+}
+.button-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap; 
+}
+.button-group a {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;   
+}
+.primary-button {
+    background-color: #0383fa;
+    color: white; 
+}
+.secondary-button {
+    background-color: #6c757d; 
+    color: white;   
+}
+.outline-button {
+    background-color: white; 
+    color: #007bff; 
+    border: 1px solid #007bff; 
+}
+.outline-button:hover {
+    background-color: white ;
+    color: #007bff;
+}
+.link-bhv p {
+    margin-bottom: 15px;
+}
+.link-bhv a {
+    text-decoration: none;
+    color: #007bff; 
+}
 
 
