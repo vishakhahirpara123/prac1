@@ -5,14 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"  />
 </head>
 <body>
     <div class="head_line">
         <h1> HTML components tempolate</h1>
         <p> A showcase of basic HTML element with clean styling</p>
     </div>
+    <br>
 
+  <div class="nav">
+    <h2>navigation</h2>
+    <div class="nav-bar">
+        <a href="#">image</a>
+        <a href="#">list</a>
+        <a href="#">tables</a>
+        <a href="#">htperlinks</a>
+        <a href="#">forms</a>
+     </div>
+  </div>
+  <br>
 
     <div class="images">
     <h2>Images</h2>
@@ -33,6 +45,138 @@
       </div>
     </div>
   </div>
-    
+  <br>
+
+<div class="con"> 
+ <div class="container">
+        <h2>Lists</h2>
+
+        <div class="list-sec">
+            <div class="list-column">
+                <h3>Unordered List</h3>
+                <ul>
+                    <li>First item in the unordered list</li>
+                    <li>Second item with <b>bold text </b>formatting</li>
+                    <li>Third item with <em>italic text </em>formatting</li>
+                    <li>Fourth item with <a href="#">hyperlink</a> including</li>
+                    <li>Fifth item in the unordered list</li>
+                </ul>
+            </div>
+
+            <div class="list-column">
+                <h3>Ordered List</h3>
+                <ol>
+                    <li>First step in the process</li>
+                    <li>Second step with<b> important information </b></li>
+                    <li>Third step with special consideration</li>
+                    <li>Fourth step with <a href="#">refrence link</a></li>
+                    <li>Final step in the process</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="definition-list-section">
+            <h3>Definition List</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd> Hyper Text Markup language , the Standard language for creating web pages.</dd>
+
+                <dt>CSS</dt>
+                <dd>cascading style sheets , Used for describing the presentationof a document written in HTML.</dd>
+
+                <dt>JavaScript</dt>
+                <dd>a programming language that enable interactive web pages.</dd>
+            </dl>
+        </div>
+  </div>
+</div> 
+
+<div class="tables">
+  <div class="table-1">
+    <h2>Tables</h2>
+    <p>tables are used to organize data in rows and columns</p>
+  </div>
+<table align="center">
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Department</th>
+                <th>Location</th>
+                <th>Start Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Smith</td>
+                <td>Senior Developer</td>
+                <td>Engineering</td>
+                <td>New York</td>
+                <td>Jan 10, 2022</td>
+            </tr>
+            <tr>
+                <td>Sarah Johnson</td>
+                <td>UX Designer</td>
+                <td>Design</td>
+                <td>San Francisco</td>
+                <td>Mar 15, 2022</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>Product Manager</td>
+                <td>Product</td>
+                <td>Chicago</td>
+                <td>Jun 5, 2022</td>
+            </tr>
+            <tr>
+                <td>Emily Davis</td>
+                <td>Marketing Specialist</td>
+                <td>Marketing</td>
+                <td>Austin</td>
+                <td>Sep 22, 2022</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="hyp-link">
+        <div class="hyp_head">
+            <h2>Hyperlinks</h2>
+            <p>Hyperlinks connect web pages and resources together.</p>
+
+            <div class="hyp-body">
+                <div class="basic">
+                    <h2>Basic Links</h2>
+                    
+                       <p> <a href="#" class="standard-link">Standard link </a>- Basic hyperlink</p>
+                        <p><a href="#" class="styled-link">Styled link </a>- With custom styling</p>
+                        <p><a href="#" class="link-with-icon"><i class="fa-solid fa-up-right-from-square"></i> - Link with icon</a></p>
+                    
+                </div>
+
+                <div class="button">
+                    <h2>Button Links</h2>
+                    <div class="button-group">
+                        <a href="#" class="primary-button">Primary Button</a>
+                        <a href="#" class="secondary-button">Secondary Button</a>
+                        <a href="#" class="outline-button">Outline Button</a>
+                    </div>
+                </div>
+
+                <div class="link-bhv">
+                    <h2>Link Behaviors</h2>
+                    
+                      <p><a href="#"class="classint-pg-link" >Internal page link </a>- Jumps to a section on the same page</p> 
+                      <p><a href="#"class="email-link" >Email link </a>- Opens email client</p>
+                      <p><a href="#"class="phone-link"> Phone link</a>- Initiates a phone call on mobile devices</p> 
+                      <p><a href="#"class="ext-link">External link</a> - Opens in a new tab</p>  
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
 </body>
 </html>
